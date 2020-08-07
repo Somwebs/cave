@@ -1,0 +1,14 @@
+{
+  "name": "themebuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-css": "node-sass sass/core.scss themebuilder/themebuilder.css -w"
+  },
+  "author": "Anas Mohamed",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

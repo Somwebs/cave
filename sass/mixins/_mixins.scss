@@ -1,0 +1,11 @@
+@import "media-queries";
+
+
+
+
+
+// BOX SHADOWS
+
+@mixin box-shadow-sm {
+    box-shadow: .3rem .3rem 1rem -.2rem rgba($black,.2);
+}

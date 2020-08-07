@@ -1,0 +1,147 @@
+//import variables 
+@import "variables/colors";
+@import "variables/typography";
+
+
+//import mixins
+@import "mixins/mixins";
+
+
+html{
+    font-size:62.5%; // Basic unit to size everything. 1rem = 10px
+}
+
+/*  RESET 
+--------------------------*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* TYPOGRAPHY
+---------------------------------------*/
+@import "typography";
+
+
+
+
+/* UTILITIES
+-----------------------------------------*/
+@import "utilities";
+
+
+
+/* COMPONENTS
+----------------------------------*/
+@import "components/buttons";
+
+
+
+/* PLUGINS
+------------------------------------------------------------*/
+
+// BOOTRSTARP GRID
+
+@import "plugins/bootstrap-grid";
+
+
+
+
+
+
+
+/*SIZE MEDIA ELEMENTS
+-----------------------------------------*/
+iframe,
+img,
+video,
+svg{
+    max-width: 100%;  // The object won't be wider than it's container.
+}
+
+
+
+/* FORM & FORM FIELDS ELEMENTS
+----------------------------------------*/
+form{
+    max-width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    @include box-shadow-sm();
+}
+
+input,
+textarea{ 
+    margin-bottom: 2rem;
+    
+}
+
+input:not([type = submit]),
+textarea{
+    border:.1rem solid rgba($primary,.3);
+    padding: 2rem;
+    border-radius: .5rem;
+
+    
+
+    &:focus{
+        border:.2rem solid rgba($primary,.3);
+        outline: none;
+    }
+}
+
+
+input[type = text],
+input[type = email],
+input[type = password],
+input[type = url],
+textarea{
+   width: 100%;
+    
+}
+
+
+
+
+
+/* TABLE ELEMENT
+--------------------------------------*/
+table{
+    max-width: 100%;
+    border: none;
+    outline: none; 
+    border-collapse: collapse;
+    color: rgba($black,.7);
+
+    th{
+        text-align: left;
+        
+    }
+
+    tr{
+
+        &:nth-child(even){ // Evenly color the background of the table row.
+           background: rgba($primary,.05);
+        }
+
+        td{// Table data
+            padding: 1.5rem;
+        }
+        
+    }
+}
+
+
+
+

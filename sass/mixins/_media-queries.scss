@@ -1,0 +1,101 @@
+
+
+
+// MEDIA QUERY MANAGER
+
+///// Min width options
+// min-2 = min-width:200
+// min-3 = min-width:300
+// min-4 = min-width:400
+// min-5 = min-width:500
+// min-6 = min-width:600
+// min-7 = min-width:700
+// min-8 = min-width:800
+
+///// max width options
+// max-2 = max-width:200
+// max-3 = max-width:300
+// max-4 = max-width:400
+// max-5 = max-width:500
+// max-6 = max-width:600
+// max-7 = max-width:700
+// max-8 = max-width:800
+
+
+
+
+
+@mixin respond($breakpoint) {
+
+    //min width
+
+    @if $breakpoint == min-2 {
+        @media only screen and (min-width:200px) { @content };   
+    }
+    
+    @if $breakpoint == min-3 {
+        @media only screen and (min-width:300px) { @content };   
+    }
+
+    @if $breakpoint == min-4 {
+        @media only screen and (min-width:400px) { @content };   
+    }
+
+    @if $breakpoint == min-5 {
+        @media only screen and (min-width:500px) { @content };   
+    }
+
+    @if $breakpoint == min-6 {
+        @media only screen and (min-width:600px) { @content };   
+    }
+
+    @if $breakpoint == min-6 {
+        @media only screen and (min-width:600px) { @content };   
+    }
+
+    @if $breakpoint == min-7 {
+        @media only screen and (min-width:700px) { @content };   
+    }
+
+    @if $breakpoint == min-8 {
+        @media only screen and (min-width:800px) { @content };   
+    }
+
+
+    ////// Max Width options
+    ///////////////////////
+    /////////////////////
+
+    @if $breakpoint == max-2 {
+        @media only screen and (max-width:200px) { @content };   
+    }
+    
+    @if $breakpoint == max-3 {
+        @media only screen and (max-width:300px) { @content };   
+    }
+
+    @if $breakpoint == max-4 {
+        @media only screen and (max-width:400px) { @content };   
+    }
+
+    @if $breakpoint == max-5 {
+        @media only screen and (max-width:500px) { @content };   
+    }
+
+    @if $breakpoint == max-6 {
+        @media only screen and (max-width:600px) { @content };   
+    }
+
+    @if $breakpoint == max-6 {
+        @media only screen and (max-width:600px) { @content };   
+    }
+
+    @if $breakpoint == max-7 {
+        @media only screen and (max-width:700px) { @content };   
+    }
+
+    @if $breakpoint == max-8 {
+        @media only screen and (max-width:800px) { @content };   
+    }
+}
+
