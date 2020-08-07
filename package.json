@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-css": "node-sass sass/core.scss themebuilder/themebuilder.css -w"
+    "compile-css": "node-sass sass/style.scss cave/cave.css -w"
   },
   "author": "Anas Mohamed",
   "license": "ISC",
