@@ -23,25 +23,52 @@ h6 {
   color: rgba(0, 0, 0, 0.8); }
 
 h1 {
-  font-size: 4.5rem; }
+  font-size: 6rem; }
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 10vw; } }
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 10vw; } }
 
 h2 {
-  font-size: 4rem; }
+  font-size: 5rem; }
+  @media only screen and (max-width: 600px) {
+    h2 {
+      font-size: 8.5vw; } }
+  @media only screen and (max-width: 600px) {
+    h2 {
+      font-size: 8.5vw; } }
 
 h3 {
-  font-size: 3.5rem; }
+  font-size: 4rem; }
+  @media only screen and (max-width: 600px) {
+    h3 {
+      font-size: 6.5vw; } }
+  @media only screen and (max-width: 600px) {
+    h3 {
+      font-size: 6.5vw; } }
 
 h4 {
   font-size: 3rem; }
-
-h4 {
-  font-size: 2.5rem; }
+  @media only screen and (max-width: 600px) {
+    h4 {
+      font-size: 5vw; } }
+  @media only screen and (max-width: 600px) {
+    h4 {
+      font-size: 5vw; } }
 
 h5 {
   font-size: 2rem; }
+  @media only screen and (max-width: 600px) {
+    h5 {
+      font-size: 1.6rem; } }
+  @media only screen and (max-width: 600px) {
+    h5 {
+      font-size: 1.6rem; } }
 
-h5 {
-  font-size: 1.6rem; }
+h6 {
+  font-size: 1.4rem; }
 
 body {
   font-size: 1.6rem;
