@@ -1,4 +1,0 @@
-# Padding
-
-### Coming Soon
-
