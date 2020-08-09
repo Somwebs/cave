@@ -335,7 +335,6 @@ button,
   font-weight: 600;
   cursor: pointer; }
 
-  
 /* PLUGINS
 ------------------------------------------------------------*/
 /*!
@@ -1955,8 +1954,7 @@ form {
   flex-wrap: wrap;
   justify-content: space-between;
   border-radius: .5rem;
-  font-size: 1.6rem;
-  box-shadow: 0.3rem 0.3rem 1rem -0.2rem rgba(0, 0, 0, 0.2); }
+  font-size: 1.6rem; }
 
 input,
 textarea {
