@@ -2034,7 +2034,7 @@ html {
 body::after {
   content: 'Made with Cave CSS';
   position: fixed;
-  top: 5rem;
+  bottom: 3rem;
   right: 3rem;
   background: rgba(46, 178, 255, 0.5);
   padding: 1rem;
