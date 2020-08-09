@@ -76,7 +76,12 @@ body {
   color: rgba(0, 0, 0, 0.7); }
 
 a {
-  color: #2EB2FF; }
+  color: #2EB2FF;
+  text-decoration: none;
+  transition: .1s ease; }
+  a:hover {
+    border-bottom: .2rem solid;
+    color: #2EB2FF; }
 
 /* UTILITIES
 -----------------------------------------*/
