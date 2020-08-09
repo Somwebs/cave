@@ -2031,6 +2031,17 @@ html {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important; } }
 
+body::after {
+  content: 'Made with Cave CSS';
+  position: fixed;
+  top: 5rem;
+  right: 3rem;
+  background: rgba(46, 178, 255, 0.5);
+  padding: 1rem;
+  border-radius: .5rem;
+  z-index: 9999;
+  color: white; }
+
 /*SIZE MEDIA ELEMENTS
 -----------------------------------------*/
 iframe,

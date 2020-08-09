@@ -51,6 +51,18 @@ html{
 
 
 
+body::after{
+    content: 'Made with Cave CSS';
+    position: fixed;
+    top:5rem;
+    right:3rem;
+    background: rgba($primary,.5);
+    padding: 1rem;
+    border-radius: .5rem;
+    z-index: 9999;
+    color: white;
+}
+
 
 
 
