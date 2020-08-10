@@ -1,0 +1,24 @@
+<svg id="c_close-circle" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_1" data-name="Ellipse 1" class="cls-1">
+    <circle class="cls-2" cx="25" cy="25" r="25"/>
+    <circle class="cls-3" cx="25" cy="25" r="23.5"/>
+  </g>
+  <rect id="Rectangle_3" data-name="Rectangle 3" width="3" height="32" rx="1.5" transform="translate(35.217 12.317) rotate(45)"/>
+  <rect id="Rectangle_4" data-name="Rectangle 4" width="3" height="32" rx="1.5" transform="translate(12.589 14.439) rotate(-45)"/>
+</svg>
