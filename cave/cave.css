@@ -85,16 +85,6 @@ a {
 
 /* UTILITIES
 -----------------------------------------*/
-/*  
-Section Element 
------------------
-* utilities/section
-*/
-.section {
-  position: relative;
-  width: 100%;
-  min-height: 30rem; }
-
 /*
 MARGINS
 ----------------------
@@ -323,6 +313,113 @@ MARGINS
 .c_mb-10,
 .mb-10 {
   margin-bottom: 10rem !important; }
+
+/*
+BORDER RADIUS UTILITIES
+-------------------------
+utilities/padding*/
+.p-0 {
+  padding: 0 !important; }
+
+.p-1 {
+  padding: 1rem !important; }
+
+.p-2 {
+  padding: 2rem !important; }
+
+.p-3 {
+  padding: 3rem !important; }
+
+.p-4 {
+  padding: 4rem !important; }
+
+.p-5 {
+  padding: 5rem !important; }
+
+.p-l-0 {
+  padding-left: 0rem !important; }
+
+.p-l-1 {
+  padding-left: 1rem !important; }
+
+.p-l-2 {
+  padding-left: 2rem !important; }
+
+.p-l-3 {
+  padding-left: 3rem !important; }
+
+.p-l-4 {
+  padding-left: 4rem !important; }
+
+.p-l-5 {
+  padding-left: 5rem !important; }
+
+.p-r-0 {
+  padding-right: 0rem !important; }
+
+.p-r-1 {
+  padding-right: 1rem !important; }
+
+.p-r-2 {
+  padding-right: 2rem !important; }
+
+.p-r-3 {
+  padding-right: 3rem !important; }
+
+.p-r-4 {
+  padding-right: 4rem !important; }
+
+.p-r-5 {
+  padding-right: 5rem !important; }
+
+.p-t-0 {
+  padding-top: 0rem !important; }
+
+.p-t-1 {
+  padding-top: 1rem !important; }
+
+.p-t-2 {
+  padding-top: 2rem !important; }
+
+.p-t-3 {
+  padding-top: 3rem !important; }
+
+.p-t-3 {
+  padding-top: 3rem !important; }
+
+.p-t-4 {
+  padding-top: 4rem !important; }
+
+.p-t-5 {
+  padding-top: 5rem !important; }
+
+.p-b-0 {
+  padding-bottom: 0rem !important; }
+
+.p-b-1 {
+  padding-bottom: 1rem !important; }
+
+.p-b-2 {
+  padding-bottom: 2rem !important; }
+
+.p-b-3 {
+  padding-bottom: 3rem !important; }
+
+.p-b-4 {
+  padding-bottom: 4rem !important; }
+
+.p-b-5 {
+  padding-bottom: 5rem !important; }
+
+/*  
+Section Element 
+-----------------
+* utilities/section
+*/
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 30rem; }
 
 /*
 BORDER RADIUS UTILITIES
