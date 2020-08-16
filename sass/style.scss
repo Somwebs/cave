@@ -83,20 +83,25 @@ form{
 input,
 textarea{ 
     margin-bottom: 2rem;
+    transition: .1s ease;
     
 }
 
+// Before and on focus state
 input:not([type = submit]),
 textarea{
-    border:.1rem solid rgba($primary,.3);
+    border:none;
+    background: rgba($black,.03);
     padding: 2rem;
     border-radius: .5rem;
+    transform: scale(.99);
 
     
 
     &:focus{
         border:.2rem solid rgba($primary,.3);
         outline: none;
+        transform: scale(1);
     }
 }
 

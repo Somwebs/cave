@@ -2157,17 +2157,21 @@ form {
 
 input,
 textarea {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  transition: .1s ease; }
 
 input:not([type=submit]),
 textarea {
-  border: 0.1rem solid rgba(46, 178, 255, 0.3);
+  border: none;
+  background: rgba(0, 0, 0, 0.03);
   padding: 2rem;
-  border-radius: .5rem; }
+  border-radius: .5rem;
+  transform: scale(0.99); }
   input:not([type=submit]):focus,
   textarea:focus {
     border: 0.2rem solid rgba(46, 178, 255, 0.3);
-    outline: none; }
+    outline: none;
+    transform: scale(1); }
 
 input[type=text],
 input[type=email],
