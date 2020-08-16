@@ -2088,8 +2088,11 @@ table {
   border-collapse: collapse;
   color: rgba(0, 0, 0, 0.7); }
   table th {
-    text-align: left; }
-  table tr:nth-child(even) {
-    background: rgba(46, 178, 255, 0.05); }
-  table tr td {
-    padding: 1.5rem; }
+    text-align: left;
+    padding-left: 1.5rem; }
+  table tr {
+    /* &:nth-child(even){ // Evenly color the background of the table row.
+           background: rgba($primary,.05);
+        }*/ }
+    table tr td {
+      padding: 1.5rem; }

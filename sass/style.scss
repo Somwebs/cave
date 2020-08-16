@@ -125,14 +125,15 @@ table{
 
     th{
         text-align: left;
+        padding-left:1.5rem;
         
     }
 
     tr{
 
-        &:nth-child(even){ // Evenly color the background of the table row.
+       /* &:nth-child(even){ // Evenly color the background of the table row.
            background: rgba($primary,.05);
-        }
+        }*/
 
         td{// Table data
             padding: 1.5rem;
