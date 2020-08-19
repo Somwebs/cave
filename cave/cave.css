@@ -86,9 +86,6 @@ a {
   color: #2EB2FF;
   text-decoration: none;
   transition: .1s ease; }
-  a:hover {
-    border-bottom: .2rem solid;
-    color: #2EB2FF; }
 
 /* UTILITIES
 -----------------------------------------*/

@@ -66,9 +66,4 @@ a{
     color:$primary;
     text-decoration: none;
     transition: .1s ease;
-
-    &:hover{
-        border-bottom: .2rem solid;
-        color:$primary;
-    }
 }
