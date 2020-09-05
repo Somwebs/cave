@@ -1,8 +1,18 @@
 
 
 // FONT FACES
-$primary-font:'Roboto', sans-serif;// Roboto
-$secondary-font: 'Montserrat', sans-serif;// Montserrat
+$default-font:'helvetica';
+$primary-font:'Roboto', sans-serif !default;// Roboto
+$secondary-font: 'Montserrat', sans-serif !default;// Montserrat
+
+//FONT SIZES
+$h1-size:3.5rem !default;
+$h2-size:2.5rem !default;
+$h3-size:1.75rem !default;
+$h4-size:1.5rem !default;
+$h5-size:1.25rem !default;
+$h6-size:1rem !default;
+
 
 
 
