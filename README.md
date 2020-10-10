@@ -1,6 +1,7 @@
 
-
-
+![GitHub](https://img.shields.io/github/license/somwebs/cave-css)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/somwebs/cave-css/master)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/somwebs/cave-css)
 # Cave-css
 Cave CSS is a simple classless CSS to start your project with a great looking HTML. It's minimal, clean, and helps you start with confidence.
 
