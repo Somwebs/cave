@@ -1,7 +1,7 @@
 {
   "name": "cave-css",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cave CSS is a simple classless CSS to start your project with a great looking HTML. It's minimal, clean, and helps you start with confidence.",
   "main": "index.js",
   "scripts": {
     "compile-css": "node-sass sass/style.scss cave/cave.css -w"
