@@ -72,26 +72,20 @@ input,
 textarea{ 
     margin-bottom: 2rem;
     transition: .1s ease;
-    
-}
-
-// Before and on focus state
-input:not([type = submit]),
-textarea{
-    border:none;
-    background: rgba($black,.03);
+    border:.2rem solid rgba($black,.07);
     padding: 2rem;
     border-radius: .5rem;
-    transform: scale(.99);
-
     
 
     &:focus{
-        border:.2rem solid rgba($primary,.3);
+        border:.2rem solid rgba($primary,.7);
         outline: none;
-        transform: scale(1);
+        
     }
+    
 }
+
+
 
 
 input[type = text],
@@ -104,6 +98,26 @@ textarea{
 }
 
 
+input[type = button],
+input[type = submit] {
+    background: $primary;
+    color: white;
+    padding: .5rem 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    font-weight: 700;
+    box-shadow: .3rem .3rem 2rem rgba($black,.1);
+    transition: all .1s ease;
+
+
+    &:focus,
+    &:hover{
+        transform: translateY(-.5rem);
+        box-shadow: .3rem .3rem  2rem  rgba($black,.2);
+        
+    }
+
+}
 
 
 
