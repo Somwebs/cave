@@ -1,3 +1,6 @@
+/*
+Copyright (c) 2020 Somwebs https:github.com/Somwebs/cave-css/blob/master/licence 
+*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 html {
@@ -107,9 +110,5 @@ table {
   table th {
     text-align: left;
     padding-left: 1.5rem; }
-  table tr {
-    /* &:nth-child(even){ // Evenly color the background of the table row.
-           background: rgba($primary,.05);
-        }*/ }
-    table tr td {
-      padding: 1.5rem; }
+  table tr td {
+    padding: 1.5rem; }
