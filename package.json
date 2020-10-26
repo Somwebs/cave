@@ -6,7 +6,6 @@
   "scripts": {
     "compile-css": "node-sass sass/style.scss cave/cave.css -w"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Somwebs/cave-css.git"
