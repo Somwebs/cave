@@ -16,6 +16,14 @@ You can just grap the generated file of the latest version [here](https://cdn.ca
 Thats it! 😁
 
 
+### Credits
+Reset CSS © Eric http://meyerweb.com/eric/tools/css/reset/ <br>
+   v2.0 | 20110126 <br>
+   License: none (public domain) <br>
+<br>
+<br>
+<br>
 
+*© 2020 Somwebs*
 
 
