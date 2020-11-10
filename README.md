@@ -11,7 +11,7 @@ Assuming you already have [npm](https://nodejs.org/en/) set up, just run the fol
 <br>
 OR
 <br>
-You can just grap the generated file of the latest version [here](https://cdn.cave.somwebs.com/cave/cave.css).
+You can just grap the generated file of the latest version [here](https://somwebs.github.io/cave-css/cave/cave.css).
 
 Thats it! 😁
 
